@@ -5,7 +5,7 @@ description: "More information on if your expected data source is not listed."
 
 You're configuring a statistic but you couldn't find your source in the dropdown?
 
-Check that it hasn't been excluded in the [recorder](https://www.home-assistant.io/integrations/recorder/) configuration.
+Check that it hasn't been excluded in the [Recorder](https://www.home-assistant.io/integrations/recorder/) configuration.
 
 Otherwise, It's caused by a bug in the integration providing the entity. Integrations need to configure their entities correctly so Home Assistant knows that we need to track statistics for it and how.
 
